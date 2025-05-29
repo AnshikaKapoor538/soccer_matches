@@ -1,5 +1,5 @@
-
-const apiKey = '6c8e4f0762733a561f88645959a709d3';
+// NOTE: Replace 'your_api_key_here' with your actual API key to run this code locally.
+const apiKey = 'your_api_key_here';
 const today = new Date().toISOString().split('T')[0];
 const url = 'https://v3.football.api-sports.io/fixtures?date=' + today;
 
